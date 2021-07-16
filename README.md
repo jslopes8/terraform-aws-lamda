@@ -3,7 +3,7 @@
 ## Usage
 ```bash
 module "create_lambda" {
-  source = ""
+  source = "git@github.com:jslopes8/terraform-aws-lamda.git?ref=v0.1.0"
 
   function_name = local.stack_name
   description   = "${local.stack_name} Function"
